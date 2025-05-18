@@ -3,7 +3,7 @@ const app = express();
 const port = 8080;
 
 app.get('/', (req, res) => {
-  res.send('Hello World ERRE!');
+  res.send('Hello World ERREt!');
 });
 
 app.listen(port, () => {
